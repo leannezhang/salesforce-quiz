@@ -7,7 +7,7 @@ It is for professionals who are trying to earn a Salesforce.com Developer certif
 ## Why was this created
 This idea came when I was studying for Salesforce Developer Dev401 exam. I wanted an application where I can test my Salesforce expertise. Another goal of making this web application was to learn Javascript, AJAX, and responsive design from scratch.
 
-## Technical and functional requirements:
+## Technical and functional requirements
 
   * The quiz application is responsive (uses bootstrap)
   * Uses AJAX to load question.xml file
@@ -20,7 +20,7 @@ This idea came when I was studying for Salesforce Developer Dev401 exam. I wante
 ## Technical Details
   *	Questions and answers are located in res/questions/questions.xml file.
 
-## Support Browsers:
+## Support Browsers
   *	Please test on Firefox or Chrome with local server setup
 
 
