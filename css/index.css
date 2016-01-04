@@ -1,0 +1,198 @@
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	/* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	-webkit-touch-callout: none;
+	/* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none;
+	/* prevent webkit from resizing text to fit */
+	-webkit-user-select: none;
+	/* prevent copy paste, to allow, change 'none' to 'text' */
+	background-color: #E4E4E4;
+	background-image: linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+	background-image: -webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+	background-image: -ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #A7A7A7),
+		color-stop(0.51, #E4E4E4));
+	background-attachment: fixed;
+	font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial,
+		sans-serif;
+	font-size: 12px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	padding-top: 50px;
+}
+
+/* Portrait layout (default) */
+.app {
+	height: 100%;
+	width: 100%;
+	background-color: lightblue;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0px;
+	overflow: visible;
+	padding: 0px;
+	text-align: center;
+}
+
+.event {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #FFFFFF;
+	font-size: 12px;
+	margin: 0px 0px;
+	padding: 0px;
+}
+
+.event.listening {
+	background-color: #333333;
+	display: block;
+}
+
+.event.received {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	padding: 30px;
+	color: black;
+}
+
+.question-parent {
+	background-color: rgba(255, 255, 255, 0.5);;
+	padding: 15px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	width: 100%;
+	overflow: auto;
+	margin: auto;
+}
+
+.question {
+	background-color: white;
+	margin: 5px 0px 30px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 5px;
+	border: 1px solid #DDDDDD;
+}
+
+.nextButton {
+	
+}
+
+.result {
+	display: none;
+}
+
+@keyframes fade {from { opacity:1.0;
+} 50% {  opacity: 0.4;  }
+to {
+	opacity: 1.0;
+}
+
+}
+@-webkit-keyframes fade {from { opacity:1.0;
+}
+50%
+{  opacity: 0.4;
+}
+to {
+	opacity: 1.0;
+}
+
+}
+.blink {
+	animation: fade 3000ms infinite;
+	-webkit-animation: fade 3000ms infinite;
+}
+
+.scoreText {
+	display: none;
+}
+
+.navbar-collapse {
+	width: auto;
+	border-top: 0;
+	box-shadow: none;
+}
+
+.navbar-collapse.collapse {
+	display: block !important;
+	height: auto !important;
+	padding-bottom: 0;
+	overflow: visible !important;
+}
+
+.navbar-collapse.in {
+	overflow-y: visible;
+}
+
+.navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse
+	{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.navbar-text {
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.navbar-text.navbar-right:last-child {
+	margin-right: 0;
+}
+
+.navbar-right .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+
+.navbar-nav {
+	float: left;
+	margin: 0;
+}
+
+.navbar-nav>li {
+	float: left;
+}
+
+.navbar-nav>li>a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-nav.navbar-right:last-child {
+	margin-right: -15px;
+}
+
+.navbar-left {
+	float: left !important;
+}
+
+.navbar-right {
+	float: right !important;
+}
+
+.btn {
+	text-align: left;
+}
+
+.btn-group-vertical {
+	width: 100%
+}

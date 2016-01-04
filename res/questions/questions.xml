@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+    <qa type="ms">
+	    <question>
+			What does Salesforce authenticate before allowing a user to log in through the user interface? Choose 2 answers.
+	    </question>
+	    <answer key="AB" />
+	    <choices>
+	        <choice key="A">
+	            User's login hours
+	        </choice>
+	        <choice key="B">
+	            User's IP address
+	        </choice>
+	        <choice key="C">
+	            User's email address
+	        </choice>
+	        <choice key="D">
+	            User's machine address
+	        </choice>
+	    </choices>
+	</qa>
+	<qa type="s">
+	    <question>
+            What is not a component of a custom Force.com application?
+	    </question>
+	    <answer key="B" />
+	    <choices>
+	        <choice key="A">
+                Default landing tab
+	        </choice>
+	        <choice key="B">
+                Data warehouse
+	        </choice>
+	        <choice key="C">
+                Custom tab
+	        </choice>
+	        <choice key="D">
+                Custom object
+	        </choice>
+	    </choices>
+	</qa>
+	<qa type="s">
+	    <question>
+            What can cross-object formulas reference?
+	    </question>
+	    <answer key="A" />
+	    <choices>
+	        <choice key="A">
+                Parent object records only
+	        </choice>
+	        <choice key="B">
+                Other records of the same object
+	        </choice>
+            <choice key="C">
+                Both parent and child object records
+            </choice>
+            <choice key="D">
+                Child object records only
+            </choice>
+	    </choices>
+	</qa>
+    <qa type="ms">
+        <question>
+            A business requirement can be met by using either a formula field or an Apex trigger.
+            Why would a developer use a formula field instead of an Apex trigger? Choose 2 answers
+        </question>
+        <answer key="AD" />
+        <choices>
+            <choice key="A">
+                Formula fields do not require test methods to deploy
+            </choice>
+            <choice key="B">
+                Formula fields allow greater control and flexibility than Apex triggers
+            </choice>
+            <choice key="C">
+                Formula fields can aggregate data from child records
+            </choice>
+            <choice key="D">
+                Formula fields can be created and deployed using only a browser
+            </choice>
+        </choices>
+    </qa>
+	<qa type="s">
+	    <question>
+            Which standard profile has the "View Encrypted Data" permission by default?
+	    </question>
+	    <answer key="C" />
+	    <choices>
+	        <choice key="A">
+                Solution manager profile
+	        </choice>
+	        <choice key="B">
+                System administrator profile
+	        </choice>
+	        <choice key="C">
+                No profile has the permission active by default
+	        </choice>
+	        <choice key="D">
+                Standard user profile
+	        </choice>
+	    </choices>
+	</qa>
+    <qa type="ms">
+        <question>
+            If a change is made to an approval process, how can a developer determine the user that made the change? Choose 2 answers.
+        </question>
+        <answer key="BD" />
+        <choices>
+            <choice key="A">
+                By examining the Debug Log
+            </choice>
+            <choice key="B">
+                By looking at "Modified By" on the approval definition
+            </choice>
+            <choice key="C">
+                By checking the field history on the associated record
+            </choice>
+            <choice key="D">
+                By examining the setup audit trail
+            </choice>
+        </choices>
+    </qa>
+    <qa type="s">
+        <question>
+            A developer would like to modify the contents of the hover details for a custom object called Position.
+            What would a developer customize to accomplish this?
+        </question>
+        <answer key="D" />
+        <choices>
+            <choice key="A">
+                Position search layouts
+            </choice>
+            <choice key="B">
+                Position record types
+            </choice>
+            <choice key="C">
+                Position field dependencies
+            </choice>
+            <choice key="D">
+                Position page layouts
+            </choice>
+        </choices>
+    </qa>
+    <qa type="s">
+        <question>
+            Hiring managers at Universal containers would like a visual mechanism for determining review score outliers. Review scores are captured as a custom field on a custom Review object and can range from 1 to 10. Any review score that is >8 should be highlighted in green. Any review score that is &lt; 4 should be highlighted in red.
+            How would a developer accomplish this?
+        </question>
+        <answer key="A" />
+        <choices>
+            <choice key="A">
+                Use custom summary formulas
+            </choice>
+            <choice key="B">
+                Use matrix reports
+            </choice>
+            <choice key="C">
+                Use conditional highlighting
+            </choice>
+            <choice key="D">
+                Use charts
+            </choice>
+        </choices>
+    </qa>
+    <qa type="s">
+        <question>
+            A developer needs to perform an automated extract of data from Salesforce nightly at 2:00 a.m.
+            How would the developer accomplish this?
+        </question>
+        <answer key="B" />
+        <choices>
+            <choice key="A">
+                Use the Export Scheduler of the Data Loader's GUI
+            </choice>
+            <choice key="B">
+                Use the Command-line interface of the Data Loader
+            </choice>
+            <choice key="C">
+                Use the Data Export service to perform a nightly extract
+            </choice>
+            <choice key="D">
+                Use the Schedule Manager of the import wizard
+            </choice>
+        </choices>
+    </qa>
+    <qa type="ms">
+        <question>
+            A developer had added a custom object tab to an application
+            Which additional feature will become available by default for the object in the application?
+            Choose 3 answers
+        </question>
+        <answer key="ACE" />
+        <choices>
+            <choice key="A">
+                Create a new sidebar component
+            </choice>
+            <choice key="B">
+                Custom reporting
+            </choice>
+            <choice key="C">
+                Search
+            </choice>
+            <choice key="D">
+                Quick create
+            </choice>
+            <choice key="E">
+                Recent item
+            </choice>
+        </choices>
+    </qa>
+</test>
