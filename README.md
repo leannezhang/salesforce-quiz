@@ -21,6 +21,10 @@ This idea came when I was studying for Salesforce Developer Dev401 exam. I wante
   *	Questions and answers are located in res/questions/questions.xml file.
 
 ## Support Browsers
-  *	Please test on Firefox or Chrome with local server setup
+  *	Please test on Firefox or Chrome
+
+## Run
+  * Set up local server. IDE: webstorm
+  * Run index.html
 
 
