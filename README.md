@@ -4,7 +4,7 @@
 This is a quiz application that tests an individual’s knowledge on Salesforce.com development platform. It has 10 sample questions. 
 It is for professionals who are trying to earn a Salesforce.com Developer certificate (DEV 401). 
 
-## LIVE SITE LINK
+## Site URL
 http://www.leannezhang.com/salesforce-quiz/
 
 ## Why was this created
